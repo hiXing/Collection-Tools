@@ -1,0 +1,64 @@
+
+.gradle
+/local.properties
+.idea
+#/.idea/workspace.xml
+#/.idea/libraries
+
+/build
+/captures
+#/gradle
+
+# OSX
+.DS_Store
+
+
+# IDEA
+
+*.iml
+
+*.ipr
+
+*.iws
+out
+
+
+# Maven
+target
+
+release.properties
+
+pom.xml.*
+
+# Built application files
+
+*.apk
+!APK
+
+*.ap_
+
+
+# Files for ART and Dalvik VM
+*.dex
+
+# Generated files
+bin/
+gen/
+
+# Eclipse project files
+
+.classpath
+
+.project
+
+.metadata
+
+.settings/
+tmp/
+*.tmp
+
+# Java class files
+*.class
+
+
+

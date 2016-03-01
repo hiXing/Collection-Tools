@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.zhx.act.MainActivity" >
+
+    <Button
+        android:id="@+id/switch_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="切换" />
+    <com.zhx.views.ToggleButton
+        xmlns:toggle="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/setting_notice_toggleBtn"
+        android:layout_width="54dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/switch_btn"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        toggle:borderWidth="1dp"
+        toggle:offBorderColor="#fff"
+        toggle:offColor="#ddd"
+        toggle:onColor="#f00"
+        toggle:spotColor="#00f"
+         />
+    <com.zhx.views.SwitchButton2
+        android:id="@+id/mySwitchBtn2"
+        android:layout_below="@+id/setting_notice_toggleBtn"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.zhx.views.SwitchButton
+        android:id="@+id/mySwitchBtn"
+        android:layout_below="@+id/mySwitchBtn2"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
