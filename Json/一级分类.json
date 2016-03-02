@@ -1,0 +1,100 @@
+[
+	{
+		"type":"groups",
+		"name":"钢坯",
+		"items":[
+			
+		]
+	},
+	{
+		"type":"groups",
+		"name":"带钢",
+		"items":[
+		
+		]
+	},
+	{
+		"type":"groups",
+		"name":"型材",
+		"items":[
+		
+		]
+	},
+	{
+		"type":"groups",
+		"name":"建材",
+		"items":[
+		
+		]
+	},
+	{
+		"type":"groups",
+		"name":"管材",
+		"items":[
+		
+		]
+	},
+	{
+		"type":"groups",
+		"name":"外矿",
+		"items":[
+		
+		]
+	},
+	{
+		"type":"groups",
+		"name":"板材",
+		"items":[
+		
+		]
+	},
+	{
+		"type":"groups",
+		"name":"内粉",
+		"items":[
+		
+		]
+	},
+	{
+		"type":"groups",
+		"name":"焦炭",
+		"items":[
+		
+		]
+	},
+	{
+		"type":"groups",
+		"name":"煤",
+		"items":[
+		
+		]
+	},
+	{
+		"type":"groups",
+		"name":"废钢",
+		"items":[
+		
+		]
+	},
+	{
+		"type":"groups",
+		"name":"生铁",
+		"items":[
+		
+		]
+	},
+	{
+		"type":"groups",
+		"name":"合金",
+		"items":[
+		
+		]
+	},
+	{
+		"type":"groups",
+		"name":"分析点评",
+		"items":[
+		
+		]
+	}
+]

@@ -1,0 +1,600 @@
+[
+	{
+		"type":"groups",
+		"name":"钢坯",
+		"items":[
+			
+		]
+	},
+	{
+		"type":"groups",
+		"name":"带钢",
+		"items":[
+			{
+				"type":"groups",
+				"name":"唐山地区",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"霸州地区",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"其他地区",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"华北带钢会",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"调查",
+				"items":[
+				
+					]
+			}
+		]
+	},
+	{
+		"type":"groups",
+		"name":"型材",
+		"items":[
+			{
+				"type":"groups",
+				"name":"唐山地区",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"天津地区",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"其他地区",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"基准价",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"统计调查",
+				"items":[
+				
+					]
+			}
+		]
+	},
+	{
+		"type":"groups",
+		"name":"建材",
+		"items":[
+			{
+				"type":"groups",
+				"name":"东北建材",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"焊丝报价",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"华北建材",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"华东建材",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"华南建材",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"华中建材",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"唐山建材",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"西北建材",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"西南建材",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"招标价",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"钢厂价格政策",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"统计调查",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"期货",
+				"items":[
+				
+					]
+			}
+		]
+	},
+	{
+		"type":"groups",
+		"name":"管材",
+		"items":[
+			{
+				"type":"groups",
+				"name":"镀锌管",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"无缝管",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"直缝管",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"架子管",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"螺旋管",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"方矩管",
+				"items":[
+				
+					]
+			}
+		]
+	},
+	{
+		"type":"groups",
+		"name":"外矿",
+		"items":[
+			{
+				"type":"groups",
+				"name":"期货",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"掉期",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"库存统计",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"招标价",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"港口主流价",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"其它",
+				"items":[
+				
+					]
+			}
+		]
+	},
+	{
+		"type":"groups",
+		"name":"板材",
+		"items":[
+			{
+				"type":"groups",
+				"name":"板材",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"热轧",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"冷轧",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"镀锌卷",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"彩涂卷",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"价格政策",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"期货",
+				"items":[
+				
+					]
+			}
+		]
+	},
+	{
+		"type":"groups",
+		"name":"内粉",
+		"items":[
+			{
+				"type":"groups",
+				"name":"承德",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"东北",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"邯邢地区",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"廊坊",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"密云",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"内蒙",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"球团",
+				"items":[
+				
+					]
+			},{
+				"type":"groups",
+				"name":"山东",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"山西",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"石家庄",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"唐山",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"运费",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"张家口",
+				"items":[
+				
+					]
+			}
+		]
+	},
+	{
+		"type":"groups",
+		"name":"焦炭",
+		"items":[
+			{
+				"type":"groups",
+				"name":"东北市场",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"钢厂采购价格",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"港口价格",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"华北市场",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"华东市场",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"华中市场",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"期货",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"西北市场",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"西南地区",
+				"items":[
+				
+					]
+			}
+		]
+	},
+	{
+		"type":"groups",
+		"name":"煤",
+		"items":[
+			{
+				"type":"groups",
+				"name":"喷吹煤",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"动力煤",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"港口价格",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"焦煤港口",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"焦煤",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"华中市场",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"无烟煤",
+				"items":[
+				
+					]
+			},
+			{
+				"type":"groups",
+				"name":"煤化工",
+				"items":[
+				
+					]
+			}
+		]
+	},
+	{
+		"type":"groups",
+		"name":"废钢",
+		"items":[
+		
+		]
+	},
+	{
+		"type":"groups",
+		"name":"生铁",
+		"items":[
+			{
+				"type":"groups",
+				"name":"短信",
+				"items":[
+				
+					]
+			}
+		]
+	},
+	{
+		"type":"groups",
+		"name":"合金",
+		"items":[
+		
+		]
+	},
+	{
+		"type":"groups",
+		"name":"分析点评",
+		"items":[
+		
+		]
+	}
+]
