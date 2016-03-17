@@ -1,1 +1,1 @@
-include ':app', ':libs-jar-package'
+include ':app', ':library-jar'
