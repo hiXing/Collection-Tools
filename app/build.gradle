@@ -11,8 +11,13 @@ android {
         versionName "1.0"
     }
     buildTypes {
+        debbug {
+            minifyEnabled false
+            shrinkResources true
+        }
         release {
             minifyEnabled false
+            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -23,5 +28,6 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
+    compile project(':library-jar')
     compile 'com.android.support:appcompat-v7:23.1.1'
 }
