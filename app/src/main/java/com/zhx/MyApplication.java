@@ -1,4 +1,4 @@
-package com.zhx.app;
+package com.zhx;
 
 import com.zhx.tools.SimpleUncaughtExceptionHandler;
 

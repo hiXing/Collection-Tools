@@ -894,7 +894,7 @@ public class JSONHelper {
     /** 
      * @param args 
      
-    public static void main(String[] args) {  
+    public static void main(String[] args) {
         // TODO Auto-generated method stub  
         String temp = "[{\"aa\":\"1\",\"bb\":\"2\"},{\"aa\":\"3\",\"bb\":\"4\"},{\"aa\":\"5\",\"bb\":\"6\"}]";  
         List<Map<String, Object>> lm = Test.getList(temp);  
