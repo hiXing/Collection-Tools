@@ -16,12 +16,35 @@
         <activity android:name="maxwin.XListViewActivity">
 
         </activity>
+        <!---->
         <activity android:name="zrc.ZrcListviewActivity">
+        </activity>
+<!---->
+        <activity android:name="markmao.pulltorefresh.ui.MarkmaoActivity">
+        </activity>
+        <activity
+            android:name="markmao.pulltorefresh.ui.XListViewActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="markmao.pulltorefresh.ui.XScrollViewActivity"
+            android:label="@string/app_name" />
+<!---->
+        <activity
+            android:name="quentindommerc.superlistview.sample.SuperMainActivity"
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="quentindommerc.superlistview.sample.GridSample"
+            android:label="@string/title_activity_grid_sample" >
+        </activity>
+        <activity
+            android:name="quentindommerc.superlistview.sample.ListSample"
+            android:label="@string/title_activity_list_sample" >
         </activity>
 
     </application>
