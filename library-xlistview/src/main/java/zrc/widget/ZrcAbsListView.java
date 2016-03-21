@@ -31,6 +31,8 @@ import android.view.animation.Interpolator;
 import android.widget.ListAdapter;
 import android.widget.Scroller;
 
+import com.zhx.library_xlistview.R;
+
 import zrc.util.APIUtil;
 import zrc.widget.ZrcListView.OnScrollListener;
 import zrc.widget.ZrcListView.OnScrollStateListener;

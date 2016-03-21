@@ -22,7 +22,7 @@ import android.widget.RelativeLayout;
 import android.widget.Scroller;
 import android.widget.TextView;
 
-import com.zhx.R;
+import com.zhx.library_xlistview.R;
 
 
 public class XListView extends ListView implements OnScrollListener {

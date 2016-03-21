@@ -1,1 +1,1 @@
-include ':app', ':library-jar'
+include ':app', ':library-jar', ':library-xlistview'

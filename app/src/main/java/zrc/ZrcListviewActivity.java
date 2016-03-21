@@ -10,12 +10,14 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
+import com.zhx.R;
+
 import zrc.widget.SimpleFooter;
 import zrc.widget.SimpleHeader;
 import zrc.widget.ZrcListView;
 import zrc.widget.ZrcListView.OnStartListener;
 
-public class MainActivity extends Activity {
+public class ZrcListviewActivity extends Activity {
     private ZrcListView listView;
     private Handler handler;
     private ArrayList<String> msgs;
@@ -32,7 +34,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.zrx_xlistview);
 
         listView = (ZrcListView) findViewById(R.id.zListView);
         handler = new Handler();

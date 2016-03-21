@@ -17,6 +17,8 @@ import android.view.ViewGroup;
 import android.view.animation.AnimationUtils;
 import android.widget.ListAdapter;
 
+import com.zhx.library_xlistview.R;
+
 import zrc.util.APIUtil;
 
 /**

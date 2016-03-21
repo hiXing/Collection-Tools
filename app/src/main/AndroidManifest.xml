@@ -14,6 +14,9 @@
         </activity>
         <activity android:name=".act.SecondActivity"/>
         <activity android:name="maxwin.XListViewActivity">
+
+        </activity>
+        <activity android:name="zrc.ZrcListviewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
