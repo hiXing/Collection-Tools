@@ -34,11 +34,11 @@ public class MarkmaoActivity extends Activity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.list_view_btn:
-                XListViewActivity.launch(this);
+                MListViewActivity.launch(this);
                 break;
 
             case R.id.scroll_view_btn:
-                XScrollViewActivity.launch(this);
+                MScrollViewActivity.launch(this);
                 break;
         }
     }

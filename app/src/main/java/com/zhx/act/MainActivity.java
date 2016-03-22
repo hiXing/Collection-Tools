@@ -1,7 +1,5 @@
 package com.zhx.act;
 
-
-
 import com.zhx.R;
 import com.zhx.views.SwitchButton;
 import com.zhx.views.SwitchButton2;
@@ -9,6 +7,7 @@ import com.zhx.views.ToggleButton;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -33,7 +32,9 @@ public class MainActivity extends BaseActivity {
 
 	private void setupView() {
 		switchBtn = $(R.id.switch_btn);
-
+		Toolbar toolbar = $(R.id.main_toolbar);
+		setSupportActionBar(toolbar);
+		toolbar.setTitle(R.string.app_name);
 	}
 	private void setSwtichButton() {
 		mySwitchBtn = (SwitchButton)$(R.id.mySwitchBtn);

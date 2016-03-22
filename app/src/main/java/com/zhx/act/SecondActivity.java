@@ -15,13 +15,12 @@ import com.nostra13.universalimageloader.utils.StorageUtils;
 import com.zhx.R;
 import com.zhx.views.ToggleButton;
 
-import android.app.Activity;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class SecondActivity extends Activity {
+public class SecondActivity extends BaseActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

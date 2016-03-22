@@ -26,6 +26,7 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile project(':library-jar')
-    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile project(':library-facebook')
     compile project(':library-xlistview')
+    compile 'com.android.support:appcompat-v7:23.1.1'
 }

@@ -14,7 +14,7 @@ import android.widget.ListView;
 
 import com.zhx.R;
 
-import markmao.pulltorefresh.widget.XScrollView;
+import markmao.pulltorefresh.widget.MScrollView;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -27,8 +27,8 @@ import java.util.Locale;
  * @author markmjw
  * @date 2013-10-08
  */
-public class XScrollViewActivity extends Activity implements XScrollView.IXScrollViewListener {
-    private XScrollView mScrollView;
+public class MScrollViewActivity extends Activity implements MScrollView.IXScrollViewListener {
+    private MScrollView mScrollView;
 
     private ListView mListView;
 
@@ -40,7 +40,7 @@ public class XScrollViewActivity extends Activity implements XScrollView.IXScrol
 
     public static void launch(Context context) {
         Intent intent = new Intent();
-        intent.setClass(context, XScrollViewActivity.class);
+        intent.setClass(context, MScrollViewActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NO_USER_ACTION);
 
         context.startActivity(intent);
@@ -58,7 +58,7 @@ public class XScrollViewActivity extends Activity implements XScrollView.IXScrol
     protected void initView() {
         mHandler = new Handler();
 
-        mScrollView = (XScrollView) findViewById(R.id.scroll_view);
+        mScrollView = (MScrollView) findViewById(R.id.scroll_view);
         mScrollView.setPullRefreshEnable(true);
         mScrollView.setPullLoadEnable(true);
         mScrollView.setAutoLoadEnable(true);
@@ -97,7 +97,7 @@ public class XScrollViewActivity extends Activity implements XScrollView.IXScrol
                 mIndex = ++mRefreshIndex;
                 mItems.clear();
                 geneItems();
-                mAdapter = new ArrayAdapter<String>(XScrollViewActivity.this,
+                mAdapter = new ArrayAdapter<String>(MScrollViewActivity.this,
                         android.R.layout.simple_list_item_1, mItems);
                 mListView.setAdapter(mAdapter);
                 measureHeight();

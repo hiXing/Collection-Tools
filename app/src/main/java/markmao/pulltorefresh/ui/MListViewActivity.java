@@ -8,8 +8,7 @@ import android.os.Handler;
 import android.widget.ArrayAdapter;
 
 import com.zhx.R;
-
-import markmao.pulltorefresh.widget.XListView;
+import markmao.pulltorefresh.widget.MListView;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -22,8 +21,8 @@ import java.util.Locale;
  * @author markmjw
  * @date 2013-10-08
  */
-public class XListViewActivity extends Activity implements XListView.IXListViewListener {
-    private XListView mListView;
+public class MListViewActivity extends Activity implements MListView.IXListViewListener {
+    private MListView mListView;
 
     private ArrayAdapter<String> mAdapter;
     private ArrayList<String> items = new ArrayList<String>();
@@ -33,7 +32,7 @@ public class XListViewActivity extends Activity implements XListView.IXListViewL
 
     public static void launch(Context context) {
         Intent intent = new Intent();
-        intent.setClass(context, XListViewActivity.class);
+        intent.setClass(context, MListViewActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NO_USER_ACTION);
 
         context.startActivity(intent);
@@ -51,7 +50,7 @@ public class XListViewActivity extends Activity implements XListView.IXListViewL
     private void initView() {
         mHandler = new Handler();
 
-        mListView = (XListView) findViewById(R.id.list_view);
+        mListView = (MListView) findViewById(R.id.list_view);
         mListView.setPullRefreshEnable(true);
         mListView.setPullLoadEnable(true);
         mListView.setAutoLoadEnable(true);
@@ -79,7 +78,7 @@ public class XListViewActivity extends Activity implements XListView.IXListViewL
                 mIndex = ++mRefreshIndex;
                 items.clear();
                 geneItems();
-                mAdapter = new ArrayAdapter<String>(XListViewActivity.this, android.R.layout.simple_list_item_1,
+                mAdapter = new ArrayAdapter<String>(MListViewActivity.this, android.R.layout.simple_list_item_1,
                         items);
                 mListView.setAdapter(mAdapter);
                 onLoad();
