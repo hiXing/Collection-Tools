@@ -4,7 +4,6 @@ import android.content.res.Resources;
 import android.util.TypedValue;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
-import android.widget.RelativeLayout;
 
 /**
  * Utilities for generating view hierarchies without using resources.

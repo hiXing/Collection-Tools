@@ -42,7 +42,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import static com.facebook.rebound.ui.Util.*;
+import static com.facebook.rebound.ui.Util.createLayoutParams;
+import static com.facebook.rebound.ui.Util.createMatchParams;
+import static com.facebook.rebound.ui.Util.createMatchWrapParams;
+import static com.facebook.rebound.ui.Util.dpToPx;
 
 /**
  * The SpringConfiguratorView provides a reusable view for live-editing all registered springs
