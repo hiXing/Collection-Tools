@@ -9,7 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
-import com.zhx.library_xlistview.R;
+import zhx.library.R;
 
 
 /**
@@ -31,8 +31,8 @@ public class SuperListview extends BaseSuperAbsListview {
     }
 
     @Override
-    public ListView getList(){
-       return (ListView) mList;
+    public ListView getList() {
+        return (ListView) mList;
     }
 
     @Override
@@ -57,7 +57,7 @@ public class SuperListview extends BaseSuperAbsListview {
             throw new IllegalArgumentException("SuperListView works with a List!");
 
 
-        if (mList!=null) {
+        if (mList != null) {
 
 
             mList.setClipToPadding(mClipToPadding);
@@ -105,9 +105,9 @@ public class SuperListview extends BaseSuperAbsListview {
                         if (autoRemove) {
                             for (int position : reverseSortedPositions) {
 
-                                ((ArrayAdapter)mList.getAdapter()).remove(mList.getAdapter().getItem(position));
+                                ((ArrayAdapter) mList.getAdapter()).remove(mList.getAdapter().getItem(position));
                             }
-                            ((ArrayAdapter)mList.getAdapter()).notifyDataSetChanged();
+                            ((ArrayAdapter) mList.getAdapter()).notifyDataSetChanged();
                         }
                         listener.onDismiss(listView, reverseSortedPositions);
                     }

@@ -1,4 +1,4 @@
-package com.zhx.library_xlistview;
+package com.zhx.library;
 
 import org.junit.Test;
 

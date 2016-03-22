@@ -34,15 +34,15 @@ import android.widget.ListView;
 /**
  * A {@link View.OnTouchListener} that makes any {@link View} dismissable when the
  * user swipes (drags her finger) horizontally across the view.
- *
+ * <p/>
  * <p><em>For {@link ListView} list items that don't manage their own touch events
  * (i.e. you're using
  * {@link ListView#setOnItemClickListener(AdapterView.OnItemClickListener)}
  * or an equivalent listener on {@link ListActivity} or
  * {@link ListFragment}, use {@link SwipeDismissListViewTouchListener} instead.</em></p>
- *
+ * <p/>
  * <p>Example usage:</p>
- *
+ * <p/>
  * <pre>
  * view.setOnTouchListener(new SwipeDismissTouchListener(
  *         view,
@@ -53,7 +53,7 @@ import android.widget.ListView;
  *             }
  *         }));
  * </pre>
- *
+ * <p/>
  * <p>This class Requires API level 12 or later due to use of {@link
  * android.view.ViewPropertyAnimator}.</p>
  *
@@ -102,10 +102,10 @@ public class SwipeDismissTouchListener implements View.OnTouchListener {
     /**
      * Constructs a new swipe-to-dismiss touch listener for the given view.
      *
-     * @param view     The view to make dismissable.
-     * @param token    An optional token/cookie object to be passed through to the callback.
+     * @param view      The view to make dismissable.
+     * @param token     An optional token/cookie object to be passed through to the callback.
      * @param callbacks The callback to trigger when the user has indicated that she would like to
-     *                 dismiss this view.
+     *                  dismiss this view.
      */
     @TargetApi(Build.VERSION_CODES.DONUT)
     public SwipeDismissTouchListener(View view, Object token, DismissCallbacks callbacks) {

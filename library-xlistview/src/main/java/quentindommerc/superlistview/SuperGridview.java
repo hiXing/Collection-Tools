@@ -5,10 +5,9 @@ import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.GridView;
-
 import android.widget.ListAdapter;
 
-import com.zhx.library_xlistview.R;
+import zhx.library.R;
 
 
 /**
@@ -37,7 +36,7 @@ public class SuperGridview extends BaseSuperAbsListview {
     }
 
     @Override
-    public GridView getList(){
+    public GridView getList() {
         return (GridView) mList;
     }
 
@@ -71,7 +70,7 @@ public class SuperGridview extends BaseSuperAbsListview {
         else
             throw new IllegalArgumentException(listView.getClass().getName());
 
-        if (mList!=null) {
+        if (mList != null) {
 
             getList().setNumColumns(mColumns);
             getList().setVerticalSpacing(mVerticalSpacing);

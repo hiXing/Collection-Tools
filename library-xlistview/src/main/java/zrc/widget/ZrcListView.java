@@ -1,7 +1,5 @@
 package zrc.widget;
 
-import java.util.ArrayList;
-
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -17,7 +15,9 @@ import android.view.ViewGroup;
 import android.view.animation.AnimationUtils;
 import android.widget.ListAdapter;
 
-import com.zhx.library_xlistview.R;
+import zhx.library.R;
+
+import java.util.ArrayList;
 
 import zrc.util.APIUtil;
 
@@ -468,8 +468,8 @@ public class ZrcListView extends ZrcAbsListView {
     }
 
     final int measureHeightOfChildren(int widthMeasureSpec, int startPosition, int endPosition,
-            final int maxHeight,
-            int disallowPartialChildPosition) {
+                                      final int maxHeight,
+                                      int disallowPartialChildPosition) {
         final ListAdapter adapter = mAdapter;
         if (adapter == null) {
             return mListPadding.top + mListPadding.bottom + mFirstTopOffset + mLastBottomOffset;
@@ -606,34 +606,34 @@ public class ZrcListView extends ZrcAbsListView {
             detachAllViewsFromParent();
             recycleBin.removeSkippedScrap();
             switch (mLayoutMode) {
-            case LAYOUT_FORCE_BOTTOM:
-                fillUp(mItemCount - 1, childrenBottom, false);
-                adjustViewsUp();
-                break;
-            case LAYOUT_FORCE_TOP:
-                mFirstPosition = 0;
-                fillFromTop(childrenTop);
-                break;
-            default:
-                if (mItemCount == 0) {
-                    if (mTouchMode != TOUCH_MODE_SCROLL) {
+                case LAYOUT_FORCE_BOTTOM:
+                    fillUp(mItemCount - 1, childrenBottom, false);
+                    adjustViewsUp();
+                    break;
+                case LAYOUT_FORCE_TOP:
+                    mFirstPosition = 0;
+                    fillFromTop(childrenTop);
+                    break;
+                default:
+                    if (mItemCount == 0) {
+                        if (mTouchMode != TOUCH_MODE_SCROLL) {
+                            scrollToAdjustViewsUpOrDown();
+                        }
+                    } else if (firstPosition >= mItemCount) {
+                        mFirstPosition = mItemCount - 1;
+                        View child = makeAndAddView(mFirstPosition, 1, false, mListPadding.left, false);
+                        if (mItemAnimForTopIn != 0 && child.getVisibility() == View.VISIBLE) {
+                            child.startAnimation(
+                                    AnimationUtils.loadAnimation(getContext(), mItemAnimForTopIn));
+                        }
                         scrollToAdjustViewsUpOrDown();
+                    } else {
+                        fillDown(firstPosition, firstTop, false);
+                        if (mTouchMode != TOUCH_MODE_SCROLL) {
+                            scrollToAdjustViewsUpOrDown();
+                        }
                     }
-                } else if (firstPosition >= mItemCount) {
-                    mFirstPosition = mItemCount - 1;
-                    View child = makeAndAddView(mFirstPosition, 1, false, mListPadding.left, false);
-                    if (mItemAnimForTopIn != 0 && child.getVisibility() == View.VISIBLE) {
-                        child.startAnimation(
-                                AnimationUtils.loadAnimation(getContext(), mItemAnimForTopIn));
-                    }
-                    scrollToAdjustViewsUpOrDown();
-                } else {
-                    fillDown(firstPosition, firstTop, false);
-                    if (mTouchMode != TOUCH_MODE_SCROLL) {
-                        scrollToAdjustViewsUpOrDown();
-                    }
-                }
-                break;
+                    break;
             }
 
             // Flush any cached views that did not get reused above
@@ -679,7 +679,7 @@ public class ZrcListView extends ZrcAbsListView {
      * @return View that was added
      */
     private View makeAndAddView(int position, int y, boolean flow, int childrenLeft,
-            boolean selected) {
+                                boolean selected) {
         View child;
 
         if (!mDataChanged) {
@@ -720,8 +720,8 @@ public class ZrcListView extends ZrcAbsListView {
      */
     @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     private void setupChild(View child, int position, int y, boolean flowDown, int childrenLeft,
-            boolean selected,
-            boolean recycled) {
+                            boolean selected,
+                            boolean recycled) {
         final boolean isSelected = selected && shouldShowSelector();
         final boolean updateChildSelected = isSelected != child.isSelected();
         final int mode = mTouchMode;
@@ -1184,7 +1184,7 @@ public class ZrcListView extends ZrcAbsListView {
         setSelectionFromTop(i, 0);
     }
 
-    public void setSelectionFromTop(int i, int offset){
+    public void setSelectionFromTop(int i, int offset) {
         mFirstPosition = i;
         mFirstTop = offset;
         mDataChanged = true;

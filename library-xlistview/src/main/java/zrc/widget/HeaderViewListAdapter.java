@@ -46,7 +46,7 @@ public class HeaderViewListAdapter implements WrapperListAdapter {
     boolean mAreAllFixedViewsSelectable;
 
     public HeaderViewListAdapter(ArrayList<ZrcListView.FixedViewInfo> headerViewInfos,
-            ArrayList<ZrcListView.FixedViewInfo> footerViewInfos, ListAdapter adapter) {
+                                 ArrayList<ZrcListView.FixedViewInfo> footerViewInfos, ListAdapter adapter) {
         mAdapter = adapter;
 
         if (headerViewInfos == null) {

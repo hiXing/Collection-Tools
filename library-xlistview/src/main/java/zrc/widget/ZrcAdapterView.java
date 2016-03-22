@@ -46,6 +46,7 @@ abstract class ZrcAdapterView<T extends Adapter> extends ViewGroup {
         super(context, attrs, defStyle);
     }
 
+
     public final OnItemClickListener getOnItemClickListener() {
         return mOnItemClickListener;
     }
