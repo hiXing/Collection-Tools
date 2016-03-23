@@ -5,5 +5,10 @@
         android:title="@string/action_settings"
         android:orderInCategory="100"
         app:showAsAction="never"/>
+    <item android:id="@+id/action_download"
+          android:title="@string/action_download"
+        android:icon="@android:drawable/stat_sys_download"
+            android:orderInCategory="100"
+            app:showAsAction="always"/>
 
 </menu>
