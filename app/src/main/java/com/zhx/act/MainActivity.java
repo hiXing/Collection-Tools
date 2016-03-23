@@ -1,6 +1,7 @@
 package com.zhx.act;
 
 import com.zhx.R;
+import com.zhx.download.DownloadActivity;
 import com.zhx.views.SwitchButton;
 import com.zhx.views.SwitchButton2;
 import com.zhx.views.ToggleButton;
@@ -112,6 +113,10 @@ public class MainActivity extends BaseActivity {
 		int id = item.getItemId();
 		if (id == R.id.action_settings) {
 			Intent intent = new Intent(MainActivity.this,SecondActivity.class);
+			startActivity(intent);
+			return true;
+		}else if (id == R.id.action_download) {
+			Intent intent = new Intent(MainActivity.this,DownloadActivity.class);
 			startActivity(intent);
 			return true;
 		}
