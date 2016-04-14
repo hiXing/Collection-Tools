@@ -1,9 +1,6 @@
-#ISSUES
+#
 
-收集学习中遇到的一些工具类和一些类库和一些jar文件
-
-### 搜集的文档目录
-[Doc](https://github.com/hiXing/Collection-Tools/tree/master/Doc)
+收集学习中遇到的一些工具类/类库/jar文件
 
 ###	Library
 
