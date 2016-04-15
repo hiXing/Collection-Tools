@@ -1,1 +1,1 @@
-include ':app', ':library-jar', ':app-notifycations', ':library-facebook', ':library-xlistview', ':app-zxing'
+include ':app', ':library-jar', ':app-notifycations', ':library-facebook', ':library-xlistview', ':app-zxing', ':app-indicatornavigationbar'
