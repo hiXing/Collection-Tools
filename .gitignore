@@ -1,5 +1,6 @@
 
 .gradle
+gradle
 /local.properties
 .idea
 #/.idea/workspace.xml
@@ -7,7 +8,7 @@
 
 /build
 /captures
-#/gradle
+/gradle
 
 # OSX
 .DS_Store
